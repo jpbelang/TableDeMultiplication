@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorielSansBoucle", "Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Overrider", "Overrider\Overrider.csproj", "{D8B3AB83-467B-4A6A-9D00-CABD0BA3DAC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListsAndMaps", "ListsAndMaps\ListsAndMaps.csproj", "{C77B489F-ECCF-4F59-BD6C-13102E4D87CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonneAvancee", "PersonneAvancee\PersonneAvancee.csproj", "{E48E767E-64D6-4104-8757-08F792EC83BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{D8B3AB83-467B-4A6A-9D00-CABD0BA3DAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8B3AB83-467B-4A6A-9D00-CABD0BA3DAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8B3AB83-467B-4A6A-9D00-CABD0BA3DAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77B489F-ECCF-4F59-BD6C-13102E4D87CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77B489F-ECCF-4F59-BD6C-13102E4D87CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77B489F-ECCF-4F59-BD6C-13102E4D87CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77B489F-ECCF-4F59-BD6C-13102E4D87CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48E767E-64D6-4104-8757-08F792EC83BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48E767E-64D6-4104-8757-08F792EC83BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48E767E-64D6-4104-8757-08F792EC83BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48E767E-64D6-4104-8757-08F792EC83BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
