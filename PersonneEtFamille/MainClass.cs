@@ -19,7 +19,7 @@ namespace PersonneEtFamille
             {
                 throw new ApplicationException("mauvaise taille");
             }
-            if (famille.TailleEtendue() != 0)
+            if (famille.TailleEtendue() != 2)
             {
                 throw new ApplicationException("mauvaise taille");
             }
