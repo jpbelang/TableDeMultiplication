@@ -51,13 +51,17 @@ namespace PersonneAvancee
                 throw new ArgumentException("n'est pas conjoint....");
             }
 
+            // Est-ce que moi ou mon conjoint ont un enfant du meme nom que le nouvel enfant ?
             if (enfants.ContainsKey(nomEnfant) || conjoint.enfants.ContainsKey(nomEnfant))
             {
                 throw new ArgumentException("enfant en double");
 
             }
 
+            // Il est ne le nouvel enfant...
             Personne enfant = new Personne(nomEnfant, 0);
+
+            // Les parents recoivent le nouvel enfant.
             enfants.Add(nomEnfant, enfant);
             conjoint.enfants.Add(nomEnfant, enfant);
             return enfant;
