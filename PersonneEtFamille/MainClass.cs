@@ -27,6 +27,7 @@ namespace PersonneEtFamille
             // Tristesse, divorce.
             p1.Divorcer();
 
+            // Remarriage....
             Famille nouvelleFamille = p1.Marier(p3);
             if (nouvelleFamille.Taille() != 0)
             {
