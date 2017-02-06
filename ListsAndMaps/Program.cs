@@ -29,6 +29,11 @@ namespace ListsAndMaps
                 Console.WriteLine(nom + ": " + ligne);
             }
         }
+
+        public override string ToString()
+        {
+            return "taille " + contenu.Count;
+        }
     }
 
     class Repertoire
@@ -47,15 +52,29 @@ namespace ListsAndMaps
             return f;
         }
 
+        public void ListerRepertoire()
+        {
+            foreach (var nomFichier in fichiers.Keys)
+            {
+                Console.WriteLine(nomFichier + " " + fichiers[nomFichier]);
+            }
+        }
+
         public static void Main(string[] args)
         {
 
             Repertoire r = new Repertoire();
             Fichier f = r.NouveauFichier("foo");
+            Fichier f1 = r.NouveauFichier("goo");
+            Fichier f2 = r.NouveauFichier("fjkfoo");
+            Fichier f3 = r.NouveauFichier("flkjgldfg");
+            Fichier f4 = r.NouveauFichier("fsfkdfh");
+
             f.AjouterContenu("Moomoo");
             f.AjouterContenu("googoo");
 
-            f.Cat();
+            //f.Cat();
+            r.ListerRepertoire();
         }
     }
 }
