@@ -10,6 +10,7 @@ namespace PersonneEtFamille
         private Personne conjoint;
         private List<Personne> exConjoints = new List<Personne>();
         private Dictionary<string, Personne> enfants = new Dictionary<string, Personne>();
+        private Famille familleCourante;
 
         public Personne(string name, int age)
         {
@@ -64,6 +65,7 @@ namespace PersonneEtFamille
             // Les parents recoivent le nouvel enfant.
             enfants.Add(nomEnfant, enfant);
             conjoint.enfants.Add(nomEnfant, enfant);
+            familleCourante.Naissance();
             return enfant;
         }
 
@@ -92,12 +94,19 @@ namespace PersonneEtFamille
             // generer famille
 
 
-            return null;
+            this.familleCourante = new Famille(this, conjoint);
+
+            return familleCourante;
         }
 
         public override String ToString()
         {
             return name + " (" + age + ") " + (conjoint != null);
+        }
+
+        public int CompteEnfants()
+        {
+            return enfants.Count;
         }
     }
 }

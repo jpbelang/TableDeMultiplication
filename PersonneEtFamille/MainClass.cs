@@ -61,6 +61,7 @@ namespace PersonneEtFamille
                 throw new ApplicationException("mauvaise taille");
             }
 
+            Console.WriteLine("all good");
         }
     }
 }
