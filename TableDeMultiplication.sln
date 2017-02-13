@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonneAvancee", "Personne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonneEtFamille", "PersonneEtFamille\PersonneEtFamille.csproj", "{A3E27956-4A13-4AD5-95E6-C14A1FFDDD15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formes", "Formes\Formes.csproj", "{799394B5-9559-494D-9124-F9098B552C70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A3E27956-4A13-4AD5-95E6-C14A1FFDDD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E27956-4A13-4AD5-95E6-C14A1FFDDD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E27956-4A13-4AD5-95E6-C14A1FFDDD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799394B5-9559-494D-9124-F9098B552C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799394B5-9559-494D-9124-F9098B552C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799394B5-9559-494D-9124-F9098B552C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799394B5-9559-494D-9124-F9098B552C70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
