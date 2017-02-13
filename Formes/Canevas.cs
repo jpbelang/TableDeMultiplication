@@ -13,6 +13,5 @@
         */
         double CalculeSurfaceCouverte();
 
-        BoiteContour BoiteContour();
     }
 }

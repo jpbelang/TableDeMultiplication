@@ -4,5 +4,8 @@
     {
         int Surface();
         bool ContientPoint(double x, double y);
+
+        BoiteContour BoiteContour();
+
     }
 }
