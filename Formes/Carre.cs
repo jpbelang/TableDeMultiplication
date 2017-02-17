@@ -15,7 +15,7 @@
 
         public double Surface()
         {
-            return this.size * this.size;
+            return this.size * this.size + 3;
         }
 
         public bool ContientPoint(double x, double y)
