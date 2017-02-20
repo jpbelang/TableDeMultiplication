@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formes", "Formes\Formes.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormesTest", "FormesTest\FormesTest.csproj", "{8D6B2F71-530F-4FAC-88F4-8C9C6F8BACC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Properties.csproj", "{C35F6E7E-87ED-4BF6-B264-2154D64BA05F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8D6B2F71-530F-4FAC-88F4-8C9C6F8BACC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6B2F71-530F-4FAC-88F4-8C9C6F8BACC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6B2F71-530F-4FAC-88F4-8C9C6F8BACC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35F6E7E-87ED-4BF6-B264-2154D64BA05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35F6E7E-87ED-4BF6-B264-2154D64BA05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35F6E7E-87ED-4BF6-B264-2154D64BA05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35F6E7E-87ED-4BF6-B264-2154D64BA05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
