@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "Properties\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Triage", "Triage\Triage.csproj", "{B88498A8-B5B7-4B6A-91E1-1D26DDF4361F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{24F3DC7F-97B2-44FF-B593-216472349CA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B88498A8-B5B7-4B6A-91E1-1D26DDF4361F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88498A8-B5B7-4B6A-91E1-1D26DDF4361F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88498A8-B5B7-4B6A-91E1-1D26DDF4361F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F3DC7F-97B2-44FF-B593-216472349CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F3DC7F-97B2-44FF-B593-216472349CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F3DC7F-97B2-44FF-B593-216472349CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F3DC7F-97B2-44FF-B593-216472349CA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
