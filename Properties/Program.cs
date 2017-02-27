@@ -15,6 +15,7 @@ namespace Properties
 
             SmartHeure sh = new SmartHeure(11, 12, 13);
             sh.Heure = 44;
+            sh.heure = 44;
         }
     }
 }

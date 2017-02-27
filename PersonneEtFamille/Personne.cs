@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace PersonneEtFamille
 {
-    public class Personne
+    public class Personne : IComparable
     {
         private string name;
-        private int age;
+        public int age;
         private Personne conjoint;
         private List<Personne> exConjoints = new List<Personne>();
         private Dictionary<string, Personne> enfants = new Dictionary<string, Personne>();
@@ -107,6 +107,13 @@ namespace PersonneEtFamille
         public int CompteEnfants()
         {
             return enfants.Count;
+        }
+
+        public int CompareTo(object obj)
+        {
+            Personne autre = (Personne)obj;
+
+            return this.name.CompareTo(autre.name);
         }
     }
 }
